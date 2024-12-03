@@ -1,0 +1,1 @@
+# solo-rock-paper-scissors

@@ -1,0 +1,70 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 800px;
+    margin: auto;
+    background-color: lightskyblue;
+    border-width: 14px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.button-container {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;   
+}
+
+.button-container button, #replay-btn {
+    padding: 24px;
+    font-family: 'New Nord Wide', 'Courier New', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 12px;
+    min-width: 180px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 400px;
+}
+
+.scoreboard {
+    font-family: 'New Nord Wide', 'Courier New', monospace;
+    font-weight: 200;
+}
+
+.score-header {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.human, .computer {
+    font-size: 16px;
+}
+
+.newsfeed p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+#game-over {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
